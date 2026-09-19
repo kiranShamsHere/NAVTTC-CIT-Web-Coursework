@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width: 100%;
+    border: 2px solid;
+    height: 80vh;
+    border-radius: 8px;
+    
+    justify-content: space-around;
+    background-image: url('https://www.picsum.photos/1200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+ }
+
+.child{
+    border: 2px solid ;
+    height: 400px;
+     width: 500px;
+    background-image: url('https://www.picsum.photos/1200');
+    
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.max-width{
+    width: 700px;
+}

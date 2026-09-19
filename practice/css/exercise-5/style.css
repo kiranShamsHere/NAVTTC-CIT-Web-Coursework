@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-one{
+       background-color: palevioletred;
+       padding: 70px;
+}
+.section-two{
+    background-color: plum;
+    width: 100%;
+    padding: 50px;
+}
+h1, p{
+   width: 100%;
+   /* border: 1px solid ; */
+}
+h1{
+    margin-top: -20px;
+    padding: 8px;
+}
+section p {
+    margin-top: 10px;
+}
+p{
+    padding: 10px;
+}

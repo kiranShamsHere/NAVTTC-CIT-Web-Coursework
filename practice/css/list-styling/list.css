@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 15px;
+}
+li {
+  border: 1px solid plum;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: plum;
+}
+li:hover{
+    background-color: pink;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.container{
+    width: 150px;
+    border: 1px solid;
+    padding: 70px;
+    background-color: purple;
+    border-radius: 8px;
+}
+.auto{
+    margin: auto;
+    margin-top: 22px;
+    text-align: center;
+}
+p{
+    border: 1px solid;
+    width: 100px;
+    padding: 30px;
+    background-color: pink;
+}
+.top{
+    margin-left: 550px;
+}
+.left{
+    margin-top: -50px;
+    margin-left: 300px;
+}
+.right{
+    margin-top: -235px;
+    margin-left: 800px;
+}
+.bottom{
+    margin: auto;
+    margin-top: -50px;
+    margin-left: 550px;
+    z-index: -1;
+}

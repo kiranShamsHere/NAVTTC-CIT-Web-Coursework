@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.space {
+  padding: 155px;
+  background-color: indianred;
+}
+.sp {
+  padding: 25px;
+  background-color: rgb(36, 138, 138);
+}
+th {
+  padding: 15px;
+  background-color: rgb(19, 19, 94);
+  border-collapse: collapse;
+}
+.last {
+  padding: 25px;
+  background-color: rgb(13, 71, 13);
+  margin: 20px;
+}
+table {
+  text-align: center;
+  color: white;
+}
+span {
+  margin: 10px;
+}

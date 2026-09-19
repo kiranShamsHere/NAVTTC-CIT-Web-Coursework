@@ -1,0 +1,63 @@
+.parent {
+  height: 400px;
+  display: flex;
+  background-image: url("https://www.picsum.photos/1100");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+h3 {
+  margin: 0;
+}
+.col {
+  border-radius: 5px;
+}
+.leftBox {
+  width: 450px;
+  /* border: 1px solid purple; */
+  padding: 19px;
+  height: 140px;
+  background-color: white;
+}
+.newClass {
+  width: 300px;
+  /* background-image: url('https://www.picsum.photos/200'); */
+  background-color: black;
+  /* border: 1px solid purple; */
+  height: 200px;
+}
+.wh{
+    color: #fff;
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+form {
+  text-align: center;
+  margin-top: 30px;
+}
+input {
+  margin: 8px;
+  padding: 7px;
+  border-radius: 255px;
+  background-color: #00000033;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+input::placeholder {
+  color: #fff;
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+}
+.btn:hover{
+      background-color: #ffffff;
+      color: #000;
+      cursor: pointer;
+      transition: 0.5s;
+}

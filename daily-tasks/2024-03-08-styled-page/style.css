@@ -1,0 +1,44 @@
+.right {
+  text-align: right;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(19, 19, 66);
+  color: #ffff;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+/* img:hover {
+  cursor: pointer;
+} */
+
+h2 {
+  text-decoration: underline;
+}
+
+h2:hover {
+  color: rgb(73, 73, 175);
+  cursor: pointer;
+}
+
+h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+}
