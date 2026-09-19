@@ -19,7 +19,7 @@ This is a personal coursework log, not an actively maintained open-source projec
 | Issuer | National Vocational and Technical Training Commission (NAVTTC) |
 | Issued | February 2024 |
 | Credential ID | S-24-847060 |
-| Certificate | [`docs/certificate.jpg`](./docs/certificate.jpg) |
+| Certificate | [`docs/certificate.jpeg`](./docs/certificate.jpeg) |
 
 ## What this repository contains
 
