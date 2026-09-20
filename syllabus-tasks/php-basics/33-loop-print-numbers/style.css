@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(46, 19, 49, 0.911);
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba(145, 12, 52, 0.24);
+  color: white;;
+  padding: 20px 50px;
+  border-radius: 5px;
+}

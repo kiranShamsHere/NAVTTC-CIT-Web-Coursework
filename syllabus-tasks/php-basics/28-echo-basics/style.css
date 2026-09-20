@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: darkgoldenrod;
+}
+h2 {
+  background-color: orange;
+  color: white;
+  padding: 10px 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
