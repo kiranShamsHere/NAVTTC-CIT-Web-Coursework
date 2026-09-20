@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to show image</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            text-align: center;
+            background: url(gifbackgroundimg.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        button {
+            margin-top: 300px;
+            padding: 14px;
+            width: 170px;
+            border: none;
+            border-radius: 5px;
+            color: pink;
+            background-color: black;
+            font-size: 24px;
+
+
+        }
+
+        .show {}
+
+        .container {
+            display: none;
+            margin-top: 150px;
+            text-align: center;
+            margin-left: 550px;
+        }
+
+        img {
+            border: 3px solid black;
+            border-radius: 5px;
+            box-shadow: rgb(3, 3, 53) 0px 3px 8px;
+        }
+
+
+        img:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="clickToShow" class="show" onclick="showDiv()">
+
+        <button>Click Me</button>
+
+    </div>
+    <div class="container" id="imageToShow">
+        <img src="image2.jpg" title="I Am Image In A Webpage" alt="Image In Web Page" width="" height="">
+    </div>
+
+
+
+
+    <script>
+
+        function showDiv() {
+
+            document.getElementById("clickToShow").style.display = "none";
+            document.getElementById("imageToShow").style.display = "flex";
+
+
+
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

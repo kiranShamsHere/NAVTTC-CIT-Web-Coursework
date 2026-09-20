@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    padding: 15px 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: purple;
+    color: #fff;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-27</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <h3 id="h1">Counting With FOR LOOP</h3>
+        <p id="para1"></p>
+        <h3 id="h2">Counting With WHILE LOOP</h3>
+        <p id="para2"></p>
+        <h3 id="h3">Counting With DO-WHILE LOOP</h3>
+        <p id="para3"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $("p").hide();
+        $("#h1").click(function () {
+            $("#para1").slideToggle();
+        });
+        $("#h2").click(function () {
+            $("#para2").slideToggle();
+        });
+        $("#h3").click(function () {
+            $("#para3").slideToggle();
+        });
+    </script>
+</body>
+
+</html>

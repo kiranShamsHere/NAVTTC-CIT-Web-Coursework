@@ -1,0 +1,25 @@
+.row{
+    height: 150px;
+}
+.eight{
+    background-color: purple;
+}
+.nine{
+    background-color: orange;
+}
+.ten{
+    background-color: yellowgreen;
+}
+.eleven{
+    background-color: magenta;
+}
+.twelve{
+    background-color: peru;
+}
+@media (min-width:576){
+    .container-fluid .row div{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

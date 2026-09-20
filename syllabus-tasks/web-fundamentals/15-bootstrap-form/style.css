@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0, 0, 0, 0.911);
+}
+.row{
+    backdrop-filter: blur(10px);
+    
+}
+.container{
+    margin-top: 3px;
+}
+form{
+   background-color: white;
+}
+input:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('image2-removebg-preview\ \(1\).png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.466);
+    padding: 10px;
+    font-size: 24px;
+    position: fixed;
+    width: 100%;
+    color: green;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    height: 100vh;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 128, 0, 0.63);
+}
+footer{
+    height: 10vh;
+    background-color: rgba(0, 128, 0, 0.466);
+   font-size: 24px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: green;
+}

@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  background: plum;
+  color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

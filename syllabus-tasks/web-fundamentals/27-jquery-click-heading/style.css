@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rosybrown;
+}
+div {
+  text-align: center;
+}
+h3 {
+  font-size: 27px;
+  font-weight: 500;
+  background-color: lightblue;
+  margin: 20px;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+p {
+  font-size: 19px;
+  word-spacing: 2px;
+  background-color: rgba(8, 8, 70, 0.596);
+  padding: 10px 30px;
+  width: 69vmin;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+}

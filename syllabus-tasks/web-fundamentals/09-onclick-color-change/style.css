@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(128, 0, 128);
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  width: clamp(10vw, 20em, 100vw);
+  padding: 20px;
+  color: purple;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+button:hover {
+  padding: 30px;
+  transition: 0.3s ease-in;
+}

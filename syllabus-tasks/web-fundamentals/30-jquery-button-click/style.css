@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(47, 6, 48, 0.74);
+}
+p {
+  width: 90vmin;
+  font-size: 22px;
+  color: #234893;
+  text-align: justify;
+  text-align-last: center;
+  padding: 10px 30px;
+  background-color: plum;
+  border-radius: 10px;
+  margin: auto;
+}
+button {
+  background-color: #234893;
+  color: plum;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

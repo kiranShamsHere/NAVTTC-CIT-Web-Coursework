@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 192, 203, 0.454);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 20px;
+}
+img{
+    border-radius: 50%;
+    border: 1px solid purple;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 77px;
+    color: green;
+    background-color: yellow;
+}
+div{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
