@@ -78,6 +78,7 @@ Three parts, all from the same course.
 | 30 | jQuery button click | [`syllabus-tasks/web-fundamentals/30-jquery-button-click/`](./syllabus-tasks/web-fundamentals/30-jquery-button-click/) | [View](https://kiranshamshere.github.io/NAVTTC-CIT-Web-Coursework/syllabus-tasks/web-fundamentals/30-jquery-button-click/) |
 | 32 | While loop, star pattern | [`syllabus-tasks/web-fundamentals/32-js-while-loop-pattern/`](./syllabus-tasks/web-fundamentals/32-js-while-loop-pattern/) | [View](https://kiranshamshere.github.io/NAVTTC-CIT-Web-Coursework/syllabus-tasks/web-fundamentals/32-js-while-loop-pattern/) |
 | — | Table, HTML and CSS | [`syllabus-tasks/web-fundamentals/tableTask-html-css/`](./syllabus-tasks/web-fundamentals/tableTask-html-css/) | [View](https://kiranshamshere.github.io/NAVTTC-CIT-Web-Coursework/syllabus-tasks/web-fundamentals/tableTask-html-css/) |
+| — | English alphabet learning, click a letter to hear its sound | [`syllabus-tasks/web-fundamentals/english-alphabet-learning/`](./syllabus-tasks/web-fundamentals/english-alphabet-learning/) | [View](https://kiranshamshere.github.io/NAVTTC-CIT-Web-Coursework/syllabus-tasks/web-fundamentals/english-alphabet-learning/) |
 
 Task 20 and task 26 cover the same idea (day of week via a switch statement) in two different languages. They are separate exercises, not duplicates.
 
@@ -109,7 +110,7 @@ NAVTTC-CIT-Web-Coursework/
 │   └── bootstrap/
 ├── syllabus-tasks/
 │   ├── web-fundamentals/
-│   │   └── ... 01 through 32, plus tableTask
+│   │   └── ... 01 through 32, plus tableTask and english-alphabet-learning
 │   └── php-basics/
 │       └── ... 26 through 36
 ├── assets/
